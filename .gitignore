@@ -1,0 +1,46 @@
+# ── Build output ──────────────────────────────────────────────
+dist/
+build/
+*.spec
+
+# ── Python cache ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ───────────────────────────────────────
+venv/
+env/
+.venv/
+.env/
+
+# ── Large / personal files ─────────────────────────────────────
+*.rar
+*.zip
+*.7z
+*.tar.gz
+*.pdf
+
+# ── Downloaded images (output data, not source code) ───────────
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.bmp
+
+# ── Logs ───────────────────────────────────────────────────────
+*.log
+
+# ── OS junk ────────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ── IDE / Editor ───────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
